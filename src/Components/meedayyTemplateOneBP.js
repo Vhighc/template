@@ -1,5 +1,5 @@
 import React from 'react'
-import backImg from '../../images/deskWbBpImg.svg'
+import backImg from './Assets/deskWbBpImg.svg'
 
 const meedayyTemplateOneBP = () => {
     return (
@@ -7,7 +7,7 @@ const meedayyTemplateOneBP = () => {
             <h2 className="text-[16px] font-[600] text-[#9493CE] text-center mb-[2%] mt-[3%]">
                 PROCEDURE
             </h2>
-            <div className='flex border-[green] border-solid border-[2px] justify-between mx-[7%]'>
+            {/* <div className='flex border-[green] border-solid border-[2px] justify-between mx-[5%]'> */}
             <div className="w-[85%] flex  border-[red] border-solid border-[2px] justify-between gap-[6%]">
                 <div className="border-[green] border-solid border-[2px]">
                     <div className="flex">
@@ -58,7 +58,7 @@ const meedayyTemplateOneBP = () => {
             <div>
                 <img className="" src={backImg} alt={backImg} />
             </div>
-            </div>
+            {/* </div> */}
             <div className="w-[85%] flex  border-[red] border-solid border-[2px] justify-between gap-[6%]">
                 <div className="border-[green] border-solid border-[2px]">
                     <div className="flex">
